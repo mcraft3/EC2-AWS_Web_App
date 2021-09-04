@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('<html><span style="color:blue text-align: center font-weight:bold">Welcome to your Web Application\n <em>Dynamic and live in EC2 on AWS!</em>\n</span></html>')
+   response.end('Welcome to your Web Application\nDynamic and live in EC2 on AWS!')
 }).listen(3333)
 
 // Console will print the message
